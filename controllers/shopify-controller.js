@@ -158,7 +158,14 @@ module.exports.shopifyorder = async (req, res) => {
         billing_addr: `${shopify.billing_address.address1}, ${shopify.billing_address.city}, ${shopify.billing_address.province}, ${shopify.billing_address.country}` || "",
       },
       payment_mode: shopify.payment_gateway_names.join(", ") || "",
-      items: await mapProductIdsToOrders(shopify.line_items), // Map the line items
+      // items: await mapProductIdsToOrders(shopify.line_items), // Map the line items
+
+      item: await mapProductIdsToOrders(shopify.line_items).map(item => ({
+        qty: item.current_quantity || "",
+        product_id: item.productId || "",
+        amount: item.price_set.shop_money.amount || "",
+      })),
+
       total_amt: shopify.current_subtotal_price_set.shop_money.amount || "",
       shipping_addr: `${shopify.shipping_address.address1}, ${shopify.shipping_address.city}, ${shopify.shipping_address.province}, ${shopify.shipping_address.country}` || "",
       order_status: shopify.order_status_url || "",
