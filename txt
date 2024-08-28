@@ -1,0 +1,525 @@
+{
+info
+  id: 6037299265832,
+info
+  admin_graphql_api_id: 'gid://shopify/Order/6037299265832',
+info
+  app_id: 5690175,
+info
+  browser_ip: null,
+info
+  buyer_accepts_marketing: false,
+info
+  cancel_reason: null,
+info
+  cancelled_at: null,
+info
+  cart_token: null,
+info
+  checkout_id: null,
+info
+  checkout_token: null,
+info
+  client_details: null,
+info
+  closed_at: null,
+info
+  confirmation_number: 'RATPA51C5',
+info
+  confirmed: true,
+info
+  contact_email: null,
+info
+  created_at: '2024-08-27T12:37:54+05:30',
+info
+  currency: 'INR',
+info
+  current_subtotal_price: '249.00',
+info
+  current_subtotal_price_set: {
+info
+    shop_money: { amount: '249.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '249.00', currency_code: 'INR' }
+info
+  },
+info
+  current_total_additional_fees_set: null,
+info
+  current_total_discounts: '0.00',
+info
+  current_total_discounts_set: {
+info
+    shop_money: { amount: '0.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '0.00', currency_code: 'INR' }
+info
+  },
+info
+  current_total_duties_set: null,
+info
+  current_total_price: '249.00',
+info
+  current_total_price_set: {
+info
+    shop_money: { amount: '249.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '249.00', currency_code: 'INR' }
+info
+  },
+info
+  current_total_tax: '0.00',
+info
+  current_total_tax_set: {
+info
+    shop_money: { amount: '0.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '0.00', currency_code: 'INR' }
+info
+  },
+info
+  customer_locale: null,
+info
+  device_id: null,
+info
+  discount_codes: [],
+info
+  email: '',
+info
+  estimated_taxes: false,
+info
+  financial_status: 'pending',
+info
+  fulfillment_status: null,
+info
+  landing_site: null,
+info
+  landing_site_ref: null,
+info
+  location_id: null,
+info
+  merchant_of_record_app_id: null,
+info
+  name: 'KSK-23463',
+info
+  note: null,
+info
+  note_attributes: [
+info
+    { name: 'Country code', value: 'IN' },
+info
+    { name: 'first_name', value: 'Test Order' },
+info
+    { name: 'phone', value: '9302203071' },
+info
+    { name: 'address', value: 'mx 175 e7 extension Arera colony' },
+info
+    { name: 'province_country_field', value: 'MP' },
+info
+    { name: 'city', value: 'BHOPAL' },
+info
+    { name: 'zip_code', value: '462016' },
+info
+    { name: 'IP address', value: '49.36.16.105' }
+info
+  ],
+info
+  number: 22463,
+info
+  order_number: 23463,
+info
+  order_status_url: 'https://krishisevakendra.in/76236390696/orders/8047224b705968fc91481fca538775fb/authenticate?key=a801aa85b81c8191a48140ff24932711',
+info
+  original_total_additional_fees_set: null,
+info
+  original_total_duties_set: null,
+info
+  payment_gateway_names: [ 'Cash on Delivery (COD)' ],
+info
+  phone: '+919302203071',
+info
+  po_number: null,
+info
+  presentment_currency: 'INR',
+info
+  processed_at: '2024-08-27T12:37:54+05:30',
+info
+  reference: null,
+info
+  referring_site: null,
+info
+  source_identifier: null,
+info
+  source_name: '5690175',
+info
+  source_url: null,
+info
+  subtotal_price: '249.00',
+info
+  subtotal_price_set: {
+info
+    shop_money: { amount: '249.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '249.00', currency_code: 'INR' }
+info
+  },
+info
+  tags: 'releasit_cod_form',
+info
+  tax_exempt: false,
+info
+  tax_lines: [],
+info
+  taxes_included: false,
+info
+  test: false,
+info
+  token: '8047224b705968fc91481fca538775fb',
+info
+  total_discounts: '0.00',
+info
+  total_discounts_set: {
+info
+    shop_money: { amount: '0.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '0.00', currency_code: 'INR' }
+info
+  },
+info
+  total_line_items_price: '249.00',
+info
+  total_line_items_price_set: {
+info
+    shop_money: { amount: '249.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '249.00', currency_code: 'INR' }
+info
+  },
+info
+  total_outstanding: '249.00',
+info
+  total_price: '249.00',
+info
+  total_price_set: {
+info
+    shop_money: { amount: '249.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '249.00', currency_code: 'INR' }
+info
+  },
+info
+  total_shipping_price_set: {
+info
+    shop_money: { amount: '0.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '0.00', currency_code: 'INR' }
+info
+  },
+info
+  total_tax: '0.00',
+info
+  total_tax_set: {
+info
+    shop_money: { amount: '0.00', currency_code: 'INR' },
+info
+    presentment_money: { amount: '0.00', currency_code: 'INR' }
+info
+  },
+info
+  total_tip_received: '0.00',
+info
+  total_weight: 0,
+info
+  updated_at: '2024-08-27T12:37:55+05:30',
+info
+  user_id: null,
+info
+  billing_address: {
+info
+    first_name: 'Test',
+info
+    address1: 'mx 175 e7 extension Arera colony',
+info
+    phone: '+919302203071',
+info
+    city: 'BHOPAL',
+info
+    zip: '462016',
+info
+    province: 'Madhya Pradesh',
+info
+    country: 'India',
+info
+    last_name: 'Order',
+info
+    address2: null,
+info
+    company: null,
+info
+    latitude: null,
+info
+    longitude: null,
+info
+    name: 'Test Order',
+info
+    country_code: 'IN',
+info
+    province_code: 'MP'
+info
+  },
+info
+  customer: {
+info
+    id: 8359944749352,
+info
+    email: null,
+info
+    created_at: '2024-08-27T12:37:54+05:30',
+info
+    updated_at: '2024-08-27T12:37:55+05:30',
+info
+    first_name: 'Test',
+info
+    last_name: 'Order',
+info
+    state: 'disabled',
+info
+    note: null,
+info
+    verified_email: true,
+info
+    multipass_identifier: null,
+info
+    tax_exempt: false,
+info
+    phone: '+919302203071',
+info
+    email_marketing_consent: null,
+info
+    sms_marketing_consent: {
+info
+      state: 'not_subscribed',
+info
+      opt_in_level: 'single_opt_in',
+info
+      consent_updated_at: null,
+info
+      consent_collected_from: 'OTHER'
+info
+    },
+info
+    tags: '',
+info
+    currency: 'INR',
+info
+    tax_exemptions: [],
+info
+    admin_graphql_api_id: 'gid://shopify/Customer/8359944749352',
+info
+    default_address: {
+info
+      id: 10341331697960,
+info
+      customer_id: 8359944749352,
+info
+      first_name: 'Test',
+info
+      last_name: 'Order',
+info
+      company: null,
+info
+      address1: 'mx 175 e7 extension Arera colony',
+info
+      address2: null,
+info
+      city: 'BHOPAL',
+info
+      province: 'Madhya Pradesh',
+info
+      country: 'India',
+info
+      zip: '462016',
+info
+      phone: '+919302203071',
+info
+      name: 'Test Order',
+info
+      province_code: 'MP',
+info
+      country_code: 'IN',
+info
+      country_name: 'India',
+info
+      default: true
+info
+    }
+info
+  },
+info
+  discount_applications: [],
+info
+  fulfillments: [],
+info
+  line_items: [
+info
+    {
+info
+      id: 15401362817320,
+info
+      admin_graphql_api_id: 'gid://shopify/LineItem/15401362817320',
+info
+      attributed_staffs: [],
+info
+      current_quantity: 1,
+info
+      fulfillable_quantity: 1,
+info
+      fulfillment_service: 'manual',
+info
+      fulfillment_status: null,
+info
+      gift_card: false,
+info
+      grams: 0,
+info
+      name: 'Katyayani  Premium Seaweed Extract liquid-Organic Fertilizer - 250 ML ( 250 ML x 1)',
+info
+      price: '249.00',
+info
+      price_set: [Object],
+info
+      product_exists: true,
+info
+      product_id: 8321730609448,
+info
+      properties: [],
+info
+      quantity: 1,
+info
+      requires_shipping: true,
+info
+      sku: 'K - 58',
+info
+      taxable: true,
+info
+      title: 'Katyayani  Premium Seaweed Extract liquid-Organic Fertilizer',
+info
+      total_discount: '0.00',
+info
+      total_discount_set: [Object],
+info
+      variant_id: 45290092167464,
+info
+      variant_inventory_management: null,
+info
+      variant_title: '250 ML ( 250 ML x 1)',
+info
+      vendor: 'Katyayani Organics',
+info
+      tax_lines: [],
+info
+      duties: [],
+info
+      discount_allocations: []
+info
+    }
+info
+  ],
+info
+  payment_terms: null,
+info
+  refunds: [],
+info
+  shipping_address: {
+info
+    first_name: 'Test',
+info
+    address1: 'mx 175 e7 extension Arera colony',
+info
+    phone: '+919302203071',
+info
+    city: 'BHOPAL',
+info
+    zip: '462016',
+info
+    province: 'Madhya Pradesh',
+info
+    country: 'India',
+info
+    last_name: 'Order',
+info
+    address2: null,
+info
+    company: null,
+info
+    latitude: 23.207551,
+info
+    longitude: 77.4335795,
+info
+    name: 'Test Order',
+info
+    country_code: 'IN',
+info
+    province_code: 'MP'
+info
+  },
+info
+  shipping_lines: [
+info
+    {
+info
+      id: 4878444429608,
+info
+      carrier_identifier: null,
+info
+      code: 'Free shipping',
+info
+      discounted_price: '0.00',
+info
+      discounted_price_set: [Object],
+info
+      is_removed: false,
+info
+      phone: null,
+info
+      price: '0.00',
+info
+      price_set: [Object],
+info
+      requested_fulfillment_service_id: null,
+info
+      source: null,
+info
+      title: 'Free shipping',
+info
+      tax_lines: [],
+info
+      discount_allocations: []
+info
+    }
+info
+  ]
+info
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
