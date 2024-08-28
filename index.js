@@ -22,9 +22,9 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use('/', shopifyRouter);
-// app.use('/order', orderRouter);
-// app.use('/product', productRouter);
+app.use('/order', orderRouter);
+app.use('/product', productRouter);
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     console.log('Server is running on port 3000');
   });
