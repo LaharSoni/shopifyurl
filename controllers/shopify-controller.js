@@ -18,7 +18,7 @@ const Product = require('../models/product-model')
 const Order = require('../models/order-model');
 
 
-async function mapProductIdsToOrders(orders) {
+async function mapProductIdsToOrders(order_status) {
   // Fetch all products from the database
   const products = await Product.find({});
 
@@ -29,7 +29,7 @@ async function mapProductIdsToOrders(orders) {
   });
 
   // Iterate over each order
-  orders.forEach(order => {
+  Order.forEach(order => {
     // Iterate over each item in the order
     order.items.forEach(item => {
       const productId = productSkuMap[item.sku];
