@@ -69,11 +69,11 @@ module.exports.shopifyorder = async (req, res) => {
             //   },
             // ],
 
-            item: await mapProductIdsToOrders(shopify.line_items).map(item => ({
-                qty: shopify.line_items[0].current_quantity || "",
-                product_id: item.productId || "",
-                amount: shopify.line_items[0].price_set.shop_money.amount || "",
-              })),
+            // item: await mapProductIdsToOrders(shopify.line_items).map(item => ({
+            //     qty: shopify.line_items[0].current_quantity || "",
+            //     product_id: item.productId || "",
+            //     amount: shopify.line_items[0].price_set.shop_money.amount || "",
+            //   })),
 
             total_amt: shopify.current_subtotal_price_set.shop_money.amount || "",
             shipping_addr: shopify.shipping_address.address1 + shopify.shipping_address.city + shopify.shipping_address.province + shopify.shipping_address.country || "",
