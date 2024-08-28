@@ -1,11 +1,11 @@
-// require('dotenv').config();
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const shopifyRouter = require('./routes/shopify-router')
 const orderRouter = require('./routes/order-router')
 const productRouter = require('./routes/product-router')
 
-// const db = require('./config/mongoose-connection')
+const db = require('./config/mongoose-connection')
 // require('dotenv').config();
 
 
